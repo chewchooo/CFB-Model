@@ -1,0 +1,37 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>CFB-Model</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+ :root{color-scheme:light dark}
+ body{margin:0;display:grid;place-items:center;min-height:100vh;
+      font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+      padding:24px}
+ .card{max-width:36rem}
+ h1{font-size:20px;margin:0 0 10px}
+ p{margin:0 0 12px;opacity:.85}
+ a{font-weight:600}
+ table{border-collapse:collapse;font-size:14px;margin:0 0 12px}
+ td{padding:2px 14px 2px 0}
+ td:last-child{font-variant-numeric:tabular-nums}
+</style>
+<div class="card">
+  <h1>CFB-Model</h1>
+  <p><a href="cfb-edge/">Open the CFB Edge board &rarr;</a></p>
+  <p>Opponent-adjusted college football game projections: margin, total and a
+     calibrated win probability, ranked by confidence.</p>
+  <table>
+    <tr><td>Picks the winner</td><td>73.4%</td></tr>
+    <tr><td>Always-home baseline</td><td>64.2%</td></tr>
+    <tr><td>Edge over it</td><td>+9.1pp [7.2, 11.2]</td></tr>
+    <tr><td>Margin error</td><td>13.37 pts</td></tr>
+    <tr><td>Closing spread&rsquo;s error</td><td>12.04 pts</td></tr>
+    <tr><td>Against the spread</td><td>50.4%</td></tr>
+  </table>
+  <p>It beats picking the home team by a clear margin and its probabilities are
+     calibrated. It <strong>does not beat the betting market</strong> &mdash; 1.33 points
+     of margin error worse than the closing spread, and an ATS record
+     indistinguishable from a coin flip. It says so on the page.</p>
+  <p>Hosted data and page only. The model, the backtest and every measurement live
+     elsewhere; this repository is a delivery mechanism.</p>
+</div>
