@@ -1,1 +1,1 @@
-window.CFB_META={"generated":"2026-09-16T06:50:41","season":2026,"week":3,"mode":"upcoming","counts":{"games":75,"teams":139}};
+window.CFB_META={"generated":"2026-10-09T06:51:38","season":2026,"week":6,"mode":"upcoming","counts":{"games":51,"teams":139}};
